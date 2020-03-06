@@ -1,5 +1,4 @@
 # SSM-CRUD（尚硅谷视频）
-员工管理系统（后端：Spring+SpringMVC+Mybatis 前端：thymeleaf+jsp）
 
 一、开发工具
 
