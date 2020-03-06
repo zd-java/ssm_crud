@@ -1,4 +1,4 @@
-# SSM-CRUD（尚硅谷视频）
+# SSM-CRUD（[尚硅谷视频](https://www.bilibili.com/video/av40044660?from=search&seid=3558864744911949923)）
 
 一、开发工具
 
