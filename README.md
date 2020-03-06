@@ -27,12 +27,13 @@
 
     1. 基础框架（SSM-Spring+SpringMVC+Mybatis）
       Spring 5.1.6
-      Mybatis 3.5.1
-    2. 数据库-Mysql 8.0
-    3. 前端框架-BootStrap 3.3.1
+      SpringMVC 4.3.7.RELEASE
+      Mybatis 3.4.2
+    2. 数据库-Mysql 8.0.17
+    3. 前端框架-BootStrap 3.3.7
     4. 项目依赖管理-Maven 3.6.1
-    5. 分页插件 PageHelper
-    6. 逆向工程-mybatis-generator
+    5. 分页插件-PageHelper 5.0.0
+    6. 逆向工程-mybatis-generator 1.3.5
     
 四、基础环境搭建
 
@@ -54,10 +55,13 @@
     4. 编写ssm整合配置文件
       web.xml
       mybatis-config.xml
-      spring-mybatis.xml
-      springMVC.XML
-      configGenerator.xml
-    5. 测试dao层配置（TestMapper.java）
+      applicationContext.xml
+      dispatcherServlet-servlet.xml
+      mbg.xml
+    5. 测试配置
+      Mybatis-Generator（MBGTest.java）
+      dao层（MapperTest.java）
+      controller层（MVCTest.java）
     
 五、查询
 
@@ -99,4 +103,3 @@
     单个删除 URI: /emps/del/{id}
     批量删除 URI: /emps/dels/{ids}
 
-十、总结
